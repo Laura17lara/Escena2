@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using  UnityEngine.SceneManagement;
 
-public class Rock7 : MonoBehaviour {
+public class Rock8 : MonoBehaviour {
     
     void OnCollisionEnter(Collision collision){
         if (collision.gameObject.tag=="Carro") {
-    
+        
             Debug.Log ("Game Over");
             Destroy(collision.gameObject);
-        } 
+        }   
     }
 }
