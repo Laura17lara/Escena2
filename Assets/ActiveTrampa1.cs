@@ -9,6 +9,6 @@ public class ActiveTrampa1 : MonoBehaviour {
     void OnTriggerEnter(Collider other){
         if (other.gameObject.tag == "Carro") {
             rock.GetComponent<Rigidbody> ().useGravity = true;
-         }
+        }    
     }
 }
